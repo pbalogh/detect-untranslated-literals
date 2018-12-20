@@ -1,6 +1,6 @@
 {
   "name": "detect-untranslated-literals",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Parses a React codebase to find text that has not been processed by react-intl",
   "main": "detectUntranslatedLiterals.js",
   "scripts": {
@@ -8,6 +8,9 @@
   },
   "author": "Peter Balogh",
   "license": "ISC",
+  "bin": {
+    "detect-untranslated-literals": "./detectUntranslatedLiterals.js"
+  },
   "dependencies": {
     "flow-parser": "^0.89.0",
     "lodash": "^4.17.11"

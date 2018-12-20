@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // recursively checks for un-internationalized string content in html nodes
 
 // requires flow-parser:
@@ -13,10 +15,8 @@ const parser = require('flow-parser');
 const fs = require('fs');
 const _ = require('lodash');
 
-console.log("process.argv is ", process.argv);
-
-
 const dirname = process.argv[2];
+
 
 
 const filenameRegex = /.*\.js$/;
