@@ -12,6 +12,10 @@ const parser = require('flow-parser');
 
 const fs = require('fs');
 const _ = require('lodash');
+
+console.log("process.argv is ", process.argv);
+
+
 const dirname = process.argv[2];
 
 
