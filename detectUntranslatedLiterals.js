@@ -19,7 +19,7 @@ const dirname = process.argv[2];
 
 
 
-const filenameRegex = /.*\.js$/;
+const filenameRegex = /.*\.(js|jsx)$/;
 const testFileRegex = /.*\.spec.js$/;
 
 const parseOptions = {
